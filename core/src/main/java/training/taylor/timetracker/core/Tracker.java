@@ -27,10 +27,10 @@ public class Tracker {
     }
 
     public TimeEntry get(int index) {
-        catch (Exception e) {
-
+        try{
+            catch (Exception e) {
+            }
         }
-
         boolean valid = false;
 
         return entries.get(index);
